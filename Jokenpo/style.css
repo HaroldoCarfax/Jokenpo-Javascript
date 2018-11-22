@@ -1,0 +1,27 @@
+*{
+    font-family:  Helvetica, sans-serif;
+    font-weight: 400;
+}
+
+#placar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#jogador,#computador {
+    position: relative;
+    flex-flow: 1;
+    border-radius: 5px;
+    width: 200px;
+    padding: 20px;
+    color:#fff;
+}
+
+#jogador {
+     background-color: #ff7675;
+}
+
+#computador{
+    background-color: #74b9ff;
+}
